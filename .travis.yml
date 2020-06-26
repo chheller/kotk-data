@@ -1,5 +1,0 @@
-script:
-  - ./protoc --csharp_out=./build/cs ./kotk-data/*.proto
-  - ./protoc --js_out=./build/js ./kotk-data/*.proto
-after_success:
-  - ./push.sh
