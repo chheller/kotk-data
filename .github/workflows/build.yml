@@ -31,4 +31,5 @@ jobs:
         git config --global user.name "Travis CI"
         git add .
         git commit --message "Travis build: $(date +%s)"
+        git pull
         git push --quiet
